@@ -7,7 +7,6 @@ function showmenu(event){
     event.target.classList.toggle("fa-times");
     menu.classList.toggle("menu-show");
 }
-
 document.addEventListener("click", hidemenu);
 function hidemenu(event){
     console.log(event.target);
